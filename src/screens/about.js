@@ -7,7 +7,7 @@ export default class About extends Component {
         return (
             <div id='about'>
                 <h2>About Me</h2>
-                <p>Motivated Front-End Developer with experience in Ruby on Rails, JavaScript, and React. I am a self-starter who enjoys collaborating within a team. I discovered coding through curiosity and building websites for fun for employers. I look for companies that innovate and match my desire to do things differently.</p>
+                <p id='blurb'>Motivated Front-End Developer with experience in Ruby on Rails, JavaScript, and React. I am a self-starter who enjoys collaborating within a team. I discovered coding through curiosity and building websites for fun for employers. I look for companies that innovate and match my desire to do things differently.</p>
 
                 <h2>Languages</h2>
                 <div id='languageIcons'>

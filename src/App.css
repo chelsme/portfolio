@@ -6,6 +6,7 @@
   width: 80%;
   font-size: 24px;
   height: 90vh;
+  font-family: 'Cabin', sans-serif;
 }
 
 .App-header {
@@ -53,8 +54,8 @@ a:hover {
   margin-left: 2%;
 }
 
-p {
-  font-family: 'Cabin', sans-serif;
+#blurb {
+  margin: 50px;
 }
 
 #me {
@@ -69,6 +70,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 50px;
 }
 
 #languageIcons i {

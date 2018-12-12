@@ -1,10 +1,11 @@
 .App {
   text-align: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: absolute;
   top: 10vh;
   width: 80%;
   font-size: 24px;
+  height: 90vh;
 }
 
 .App-header {
@@ -52,6 +53,10 @@ a:hover {
   margin-left: 2%;
 }
 
+p {
+  font-family: 'Cabin', sans-serif;
+}
+
 #me {
   max-width: 370px;
   position: fixed;
@@ -59,21 +64,52 @@ a:hover {
   bottom: 0;
 }
 
-.fa {
+#languageIcons {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#languageIcons i {
+  font-size: 120px !important;
+  margin: 10px;
+}
+
+.icon {
+  height: 120px;
+  margin: 10px;
+}
+
+i {
   font-size: 60px !important;
   margin: 10px;
 }
 
 /* ********************************* contact ********************************* */
+form {
+  padding: 80px;
+}
+
+form h2 {
+  margin-bottom: 80px;
+}
+
 input, textarea{
   width: 60%;
   background: transparent;
 	border: none;
 	border-bottom: 2px solid #454545;
-  font-size: 18px;
+  font-size: 22px;
+}
+
+button {
+  font-size: 22px;
 }
 
 /* ********************************* footer ********************************* */
 footer {
   margin: 10px;
+  font-size: 14px;
+  /* width: 80%; */
 }

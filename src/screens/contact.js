@@ -6,6 +6,7 @@ export default class Contact extends Component {
         return (
             <form name="contact" method="post">
                 <input type="hidden" name="form-name" value="contact" required />
+                <h2>Get in touch with me...</h2>
                 <p><input type="text" name="name" placeholder="Name" required /></p>
                 <p><input type="email" name="email" placeholder="Email" required /></p>
                 <p><input type="tel" name="phone" placeholder="Phone Number" /></p>

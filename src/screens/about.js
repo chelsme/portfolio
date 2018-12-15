@@ -11,12 +11,16 @@ export default class About extends Component {
 
                 <h2>Languages</h2>
                 <div id='languageIcons'>
-                    <i className="fab fa-html5"></i>
-                    <i className="fab fa-css3-alt"></i>
-                    <i className="fab fa-js-square"></i>
-                    <i className="fab fa-react"></i>
+                    <img className='icon' src={require('../images/html5.png')} />
+                    <img className='icon' src={require('../images/css3.png')} />
+                    <img className='icon' src={require('../images/js.png')} />
+                    <img className='icon' src={require('../images/react.png')} />
                     <img className='icon' src={require('../images/ruby.png')} />
                     <img className='icon' src={require('../images/rails.png')} />
+                    {/* <i className="fab fa-html5"></i>
+                    <i className="fab fa-css3-alt"></i> */}
+                    {/* <i className="fab fa-js-square"></i>
+                    <i className="fab fa-react"></i> */}
                 </div>
 
                 <h2>Around the Web</h2>

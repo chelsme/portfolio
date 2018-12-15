@@ -20,7 +20,7 @@ export default class Projects extends Component {
                             autoPlay={false}
                             poster={require('../images/partyhost.png')}
                         >
-                            <source src={require('../video/partyhostframe.mov')} />
+                            <source src={require('../video/partyhost.mov')} />
                         </Player>
                         <div className='usedIcons'>
                             <img className='icon' src={require('../images/react.png')} />

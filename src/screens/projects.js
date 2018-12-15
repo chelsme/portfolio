@@ -43,7 +43,6 @@ export default class Projects extends Component {
                                 <p style={{ textDecorationLine: 'underline', fontWeight: 'bold' }}>Heroku Login:</p>
                                 <p>username: chelsea</p>
                                 <p>password: hi</p>
-                                <p>stuff stuff stuff stuff stuff stuff </p>
                             </div>
                         </div>
                     </div>

@@ -118,7 +118,8 @@ i {
   color: #282c34;
 }
 
-.video-react.video-react-fluid {
+iframe {
+/* .video-react.video-react-fluid { */
   background-color: white;
   height: 510px;
   width: 360px;
